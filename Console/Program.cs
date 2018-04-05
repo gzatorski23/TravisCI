@@ -67,7 +67,6 @@ namespace TravisCILab
         {
             return double.Parse(x) + double.Parse(y);
         }
-
         public static double Subtract(string x, string y)
         {
             return double.Parse(x) - double.Parse(y);
@@ -80,7 +79,6 @@ namespace TravisCILab
         {
             return double.Parse(x) / double.Parse(y);
         }
-
         public static double Power(string x, string y)
         {
             return Math.Pow(double.Parse(x), double.Parse(y));
